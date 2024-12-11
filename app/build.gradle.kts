@@ -12,7 +12,7 @@ android {
     defaultConfig {
         //applicationId = "com.mohan.project"
         minSdk = 24
-      //  targetSdk = 35
+        targetSdk = 35
        // versionCode = 1
      //   versionName = "1.0"
 
@@ -66,7 +66,7 @@ afterEvaluate {
                 from(components["release"])
                 groupId = "com.github.mohancn78"
                 artifactId = "mohan-plugin"
-                version = "1.0"
+                version = "2.0"
             }
         }
     }
